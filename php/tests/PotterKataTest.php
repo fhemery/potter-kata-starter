@@ -11,8 +11,9 @@ class PotterKataTest extends TestCase
         $this->assertEquals(3, 1 + 2);
     }
 
-    public function testWrongAssertion() : void {
-        $this->assertEquals(5, 2 + 2);
+    public function testPriceForEmptyBasketShouldBeZero() : void {
+        $potter = new PotterKata();
+        $this->assertEquals(0, $potter->getPrice([]));
     }
 
 }

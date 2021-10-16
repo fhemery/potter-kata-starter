@@ -4,6 +4,14 @@ Skeleton to start the Potter Kata in PHP : https://codingdojo.org/kata/Potter/
 
 ## Installing
 
-You need a working PHP version. You also need PHPUnit. 
+You need a working PHP version, and [composer](https://getcomposer.org/) installed
 
-PHPStorm will do most of the work itself, but full instructions are here: https://phpunit.readthedocs.io/en/9.5/installation.html
+Just run:
+> composer install
+
+## Running the tests
+Your IDE should be able to launch the tests easily, but if you want to launch from command line:
+
+> ./vendor/bin/phpunit tests
+
+One of the two tests should fail. It's all good, you're ready to work.
