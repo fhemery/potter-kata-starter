@@ -2,7 +2,7 @@
 
 # Potter kata - Typescript starter
 
-Skeleton to start the Potter Kata in PHP : https://codingdojo.org/kata/Potter/
+Skeleton to start the Potter Kata in Typescript : https://codingdojo.org/kata/Potter/
 
 ## Installing 
 
